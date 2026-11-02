@@ -1,0 +1,13 @@
+# 统一换行符，避免跨平台 CRLF 警告与 diff 噪音
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.gitignore text eol=lf
+*.bat text eol=crlf
+
+# 二进制资源
+*.png binary
+*.psd binary
+*.jpg binary
+*.mp3 binary
+*.wav binary

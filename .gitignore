@@ -1,0 +1,23 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---------- PyInstaller / 打包产物 ----------
+build/
+dist/
+*.zip
+
+# ---------- 个人素材（不进仓库） ----------
+卡通5.psd
+assets/preview_*.png
+
+# ---------- 含本机路径的个性化启动脚本 ----------
+run_local.bat
+
+# ---------- 系统垃圾 ----------
+Thumbs.db
+.DS_Store
+desktop.ini
